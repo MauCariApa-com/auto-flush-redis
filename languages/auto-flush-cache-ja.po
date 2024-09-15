@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+msgid "Auto Flush Cache Settings"
+msgstr "自動キャッシュフラッシュ設定"
+
+msgid "Auto Flush Cache"
+msgstr "自動キャッシュフラッシュ"
+
+msgid "Cache Type"
+msgstr "キャッシュタイプ"
+
+msgid "Redis"
+msgstr "Redis"
+
+msgid "Valkey"
+msgstr "Valkey"
+
+msgid "Redis/Valkey IP"
+msgstr "Redis/Valkey IP"
+
+msgid "Redis/Valkey Port"
+msgstr "Redis/Valkey ポート"
+
+msgid "Auto Flush Interval"
+msgstr "自動フラッシュ間隔"
+
+msgid "Days"
+msgstr "日"
+
+msgid "How to Find Redis/Valkey IP and Port"
+msgstr "Redis/Valkey の IP とポートの見つけ方"
+
+msgid "Follow the steps below to find the IP address and port for your Redis or Valkey server:"
+msgstr "以下の手順に従って、Redis または Valkey サーバーの IP アドレスとポートを見つけてください："
+
+msgid "For Redis on a Local Machine:"
+msgstr "ローカルマシン上の Redis："
+
+msgid "Open your terminal and run: redis-cli"
+msgstr "ターミナルを開き、次のコマンドを実行します：redis-cli"
+
+msgid "By default, Redis runs on IP: 127.0.0.1 and Port: 6379. You can confirm this by running: INFO"
+msgstr "デフォルトでは、Redis は IP: 127.0.0.1 とポート: 6379 で実行されます。これを確認するには、次のコマンドを実行します：INFO"
+
+msgid "If you're using a custom configuration file, check your Redis config file (usually /etc/redis/redis.conf) for the bind IP and port settings."
+msgstr "カスタム構成ファイルを使用している場合は、Redis の設定ファイル（通常 /etc/redis/redis.conf）でバインド IP とポート設定を確認してください。"
+
+msgid "For Redis on a Remote Server:"
+msgstr "リモートサーバー上の Redis："
+
+msgid "SSH into your remote server where Redis is installed."
+msgstr "Redis がインストールされているリモートサーバーに SSH で接続します。"
+
+msgid "Run redis-cli to connect to the Redis server."
+msgstr "redis-cli を実行して Redis サーバーに接続します。"
+
+msgid "Check your Redis configuration file (/etc/redis/redis.conf) for the server's IP address and port number (under bind and port settings)."
+msgstr "Redis の設定ファイル（/etc/redis/redis.conf）でサーバーの IP アドレスとポート番号（バインドおよびポート設定の下）を確認してください。"
+
+msgid "If Redis is behind a firewall or proxy, ensure you are using the correct external IP address and that the necessary ports are open."
+msgstr "Redis がファイアウォールやプロキシの背後にある場合は、正しい外部 IP アドレスを使用していることと、必要なポートが開いていることを確認してください。"
+
+msgid "For Valkey:"
+msgstr "Valkey の場合："
+
+msgid "Check your Valkey installation documentation for the default IP and port configuration."
+msgstr "Valkey のインストール文書で、デフォルトの IP とポートの設定を確認してください。"
+
+msgid "Typically, the default IP is 127.0.0.1 and the default port is 6380, but this can vary based on your setup."
+msgstr "通常、デフォルトの IP は 127.0.0.1 で、デフォルトのポートは 6380 ですが、設定によって異なる場合があります。"
+
+msgid "If Valkey is hosted remotely, check the server's network configuration and Valkey's config file for the correct IP address and port."
+msgstr "Valkey がリモートでホスティングされている場合は、サーバーのネットワーク構成と Valkey の設定ファイルで正しい IP アドレスとポートを確認してください。"
+
+msgid "If you are unsure, consult your cloud provider or hosting service for the correct Redis or Valkey IP and port details."
+msgstr "不明な場合は、クラウドプロバイダーまたはホスティングサービスにお問い合わせいただき、正しい Redis または Valkey の IP およびポートの詳細を確認してください。"
+
+msgid "If you find this plugin helpful, please consider supporting us by making a donation:"
+msgstr "このプラグインが役立つと感じた場合は、寄付をしてサポートしていただけると幸いです："
+
+msgid "Donate via PayPal"
+msgstr "PayPal で寄付"

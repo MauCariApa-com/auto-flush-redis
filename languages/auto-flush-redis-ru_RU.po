@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+
+msgid "Auto Flush Cache Settings"
+msgstr "Настройки Автоматической Очистки Кэша"
+
+msgid "Auto Flush Cache"
+msgstr "Автоматическая Очистка Кэша"
+
+msgid "Cache Type"
+msgstr "Тип Кэша"
+
+msgid "Redis"
+msgstr "Redis"
+
+msgid "Valkey"
+msgstr "Valkey"
+
+msgid "Redis/Valkey IP"
+msgstr "IP Redis/Valkey"
+
+msgid "Redis/Valkey Port"
+msgstr "Порт Redis/Valkey"
+
+msgid "Auto Flush Interval"
+msgstr "Интервал Автоматической Очистки"
+
+msgid "Days"
+msgstr "Дни"
+
+msgid "How to Find Redis/Valkey IP and Port"
+msgstr "Как Найти IP и Порт Redis/Valkey"
+
+msgid "Follow the steps below to find the IP address and port for your Redis or Valkey server:"
+msgstr "Следуйте приведенным ниже шагам, чтобы найти IP-адрес и порт вашего сервера Redis или Valkey:"
+
+msgid "For Redis on a Local Machine:"
+msgstr "Для Redis на Локальном Компьютере:"
+
+msgid "Open your terminal and run: redis-cli"
+msgstr "Откройте терминал и выполните: redis-cli"
+
+msgid "By default, Redis runs on IP: 127.0.0.1 and Port: 6379. You can confirm this by running: INFO"
+msgstr "По умолчанию Redis работает на IP: 127.0.0.1 и Порте: 6379. Вы можете подтвердить это, выполнив: INFO"
+
+msgid "If you're using a custom configuration file, check your Redis config file (usually /etc/redis/redis.conf) for the bind IP and port settings."
+msgstr "Если вы используете пользовательский файл конфигурации, проверьте файл конфигурации Redis (обычно /etc/redis/redis.conf) на предмет настроек IP и порта."
+
+msgid "For Redis on a Remote Server:"
+msgstr "Для Redis на Удаленном Сервере:"
+
+msgid "SSH into your remote server where Redis is installed."
+msgstr "Подключитесь по SSH к удаленному серверу, на котором установлен Redis."
+
+msgid "Run redis-cli to connect to the Redis server."
+msgstr "Запустите redis-cli для подключения к серверу Redis."
+
+msgid "Check your Redis configuration file (/etc/redis/redis.conf) for the server's IP address and port number (under bind and port settings)."
+msgstr "Проверьте файл конфигурации Redis (/etc/redis/redis.conf) на предмет IP-адреса и номера порта сервера (в разделе настроек bind и порта)."
+
+msgid "If Redis is behind a firewall or proxy, ensure you are using the correct external IP address and that the necessary ports are open."
+msgstr "Если Redis находится за файрволом или прокси, убедитесь, что вы используете правильный внешний IP-адрес и что необходимые порты открыты."
+
+msgid "For Valkey:"
+msgstr "Для Valkey:"
+
+msgid "Check your Valkey installation documentation for the default IP and port configuration."
+msgstr "Проверьте документацию по установке Valkey для получения настроек IP и порта по умолчанию."
+
+msgid "Typically, the default IP is 127.0.0.1 and the default port is 6380, but this can vary based on your setup."
+msgstr "Обычно IP по умолчанию 127.0.0.1, а порт по умолчанию 6380, но это может варьироваться в зависимости от вашей конфигурации."
+
+msgid "If Valkey is hosted remotely, check the server's network configuration and Valkey's config file for the correct IP address and port."
+msgstr "Если Valkey размещен удаленно, проверьте сетевую конфигурацию сервера и файл конфигурации Valkey для получения правильного IP-адреса и порта."
+
+msgid "If you are unsure, consult your cloud provider or hosting service for the correct Redis or Valkey IP and port details."
+msgstr "Если вы не уверены, обратитесь к вашему облачному провайдеру или хостинг-службе для получения правильных деталей IP и порта Redis или Valkey."
+
+msgid "If you find this plugin helpful, please consider supporting us by making a donation:"
+msgstr "Если вы нашли этот плагин полезным, пожалуйста, подумайте о поддержке нас, сделав пожертвование:"
+
+msgid "Donate via PayPal"
+msgstr "Пожертвовать через PayPal"

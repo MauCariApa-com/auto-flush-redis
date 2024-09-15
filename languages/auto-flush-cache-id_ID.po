@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "Auto Flush Cache Settings"
+msgstr "Pengaturan Auto Flush Cache"
+
+msgid "Auto Flush Cache"
+msgstr "Auto Flush Cache"
+
+msgid "Cache Type"
+msgstr "Tipe Cache"
+
+msgid "Redis"
+msgstr "Redis"
+
+msgid "Valkey"
+msgstr "Valkey"
+
+msgid "Redis/Valkey IP"
+msgstr "IP Redis/Valkey"
+
+msgid "Redis/Valkey Port"
+msgstr "Port Redis/Valkey"
+
+msgid "Auto Flush Interval"
+msgstr "Interval Auto Flush"
+
+msgid "Days"
+msgstr "Hari"
+
+msgid "How to Find Redis/Valkey IP and Port"
+msgstr "Cara Menemukan IP dan Port Redis/Valkey"
+
+msgid "Follow the steps below to find the IP address and port for your Redis or Valkey server:"
+msgstr "Ikuti langkah-langkah di bawah ini untuk menemukan alamat IP dan port untuk server Redis atau Valkey Anda:"
+
+msgid "For Redis on a Local Machine:"
+msgstr "Untuk Redis di Mesin Lokal:"
+
+msgid "Open your terminal and run: redis-cli"
+msgstr "Buka terminal Anda dan jalankan: redis-cli"
+
+msgid "By default, Redis runs on IP: 127.0.0.1 and Port: 6379. You can confirm this by running: INFO"
+msgstr "Secara default, Redis berjalan di IP: 127.0.0.1 dan Port: 6379. Anda dapat mengonfirmasi ini dengan menjalankan: INFO"
+
+msgid "If you're using a custom configuration file, check your Redis config file (usually /etc/redis/redis.conf) for the bind IP and port settings."
+msgstr "Jika Anda menggunakan file konfigurasi khusus, periksa file konfigurasi Redis Anda (biasanya /etc/redis/redis.conf) untuk pengaturan IP dan port."
+
+msgid "For Redis on a Remote Server:"
+msgstr "Untuk Redis di Server Jarak Jauh:"
+
+msgid "SSH into your remote server where Redis is installed."
+msgstr "SSH ke server jarak jauh Anda di mana Redis diinstal."
+
+msgid "Run redis-cli to connect to the Redis server."
+msgstr "Jalankan redis-cli untuk terhubung ke server Redis."
+
+msgid "Check your Redis configuration file (/etc/redis/redis.conf) for the server's IP address and port number (under bind and port settings)."
+msgstr "Periksa file konfigurasi Redis Anda (/etc/redis/redis.conf) untuk alamat IP dan nomor port server (di bawah pengaturan bind dan port)."
+
+msgid "If Redis is behind a firewall or proxy, ensure you are using the correct external IP address and that the necessary ports are open."
+msgstr "Jika Redis berada di balik firewall atau proxy, pastikan Anda menggunakan alamat IP eksternal yang benar dan port yang diperlukan terbuka."
+
+msgid "For Valkey:"
+msgstr "Untuk Valkey:"
+
+msgid "Check your Valkey installation documentation for the default IP and port configuration."
+msgstr "Periksa dokumentasi instalasi Valkey Anda untuk konfigurasi IP dan port default."
+
+msgid "Typically, the default IP is 127.0.0.1 and the default port is 6380, but this can vary based on your setup."
+msgstr "Biasanya, IP default adalah 127.0.0.1 dan port default adalah 6380, tetapi ini dapat bervariasi berdasarkan pengaturan Anda."
+
+msgid "If Valkey is hosted remotely, check the server's network configuration and Valkey's config file for the correct IP address and port."
+msgstr "Jika Valkey dihosting secara jarak jauh, periksa konfigurasi jaringan server dan file konfigurasi Valkey untuk alamat IP dan port yang benar."
+
+msgid "If you are unsure, consult your cloud provider or hosting service for the correct Redis or Valkey IP and port details."
+msgstr "Jika Anda tidak yakin, konsultasikan dengan penyedia cloud atau layanan hosting Anda untuk detail IP dan port Redis atau Valkey yang benar."
+
+msgid "If you find this plugin helpful, please consider supporting us by making a donation:"
+msgstr "Jika Anda merasa plugin ini bermanfaat, pertimbangkan untuk mendukung kami dengan memberikan donasi:"
+
+msgid "Donate via PayPal"
+msgstr "Donasi melalui PayPal"

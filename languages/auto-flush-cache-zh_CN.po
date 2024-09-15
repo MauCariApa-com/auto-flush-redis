@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+
+msgid "Auto Flush Cache Settings"
+msgstr "自动刷新缓存设置"
+
+msgid "Auto Flush Cache"
+msgstr "自动刷新缓存"
+
+msgid "Cache Type"
+msgstr "缓存类型"
+
+msgid "Redis"
+msgstr "Redis"
+
+msgid "Valkey"
+msgstr "Valkey"
+
+msgid "Redis/Valkey IP"
+msgstr "Redis/Valkey IP"
+
+msgid "Redis/Valkey Port"
+msgstr "Redis/Valkey 端口"
+
+msgid "Auto Flush Interval"
+msgstr "自动刷新间隔"
+
+msgid "Days"
+msgstr "天"
+
+msgid "How to Find Redis/Valkey IP and Port"
+msgstr "如何找到 Redis/Valkey 的 IP 和端口"
+
+msgid "Follow the steps below to find the IP address and port for your Redis or Valkey server:"
+msgstr "按照以下步骤找到您的 Redis 或 Valkey 服务器的 IP 地址和端口："
+
+msgid "For Redis on a Local Machine:"
+msgstr "本地机器上的 Redis："
+
+msgid "Open your terminal and run: redis-cli"
+msgstr "打开终端并运行：redis-cli"
+
+msgid "By default, Redis runs on IP: 127.0.0.1 and Port: 6379. You can confirm this by running: INFO"
+msgstr "默认情况下，Redis 运行在 IP: 127.0.0.1 和端口: 6379。您可以通过运行：INFO 来确认"
+
+msgid "If you're using a custom configuration file, check your Redis config file (usually /etc/redis/redis.conf) for the bind IP and port settings."
+msgstr "如果您使用的是自定义配置文件，请检查 Redis 配置文件（通常是 /etc/redis/redis.conf）中的绑定 IP 和端口设置。"
+
+msgid "For Redis on a Remote Server:"
+msgstr "远程服务器上的 Redis："
+
+msgid "SSH into your remote server where Redis is installed."
+msgstr "SSH 进入您安装 Redis 的远程服务器。"
+
+msgid "Run redis-cli to connect to the Redis server."
+msgstr "运行 redis-cli 连接到 Redis 服务器。"
+
+msgid "Check your Redis configuration file (/etc/redis/redis.conf) for the server's IP address and port number (under bind and port settings)."
+msgstr "检查您的 Redis 配置文件（/etc/redis/redis.conf）中的服务器 IP 地址和端口号（在绑定和端口设置下）。"
+
+msgid "If Redis is behind a firewall or proxy, ensure you are using the correct external IP address and that the necessary ports are open."
+msgstr "如果 Redis 位于防火墙或代理后面，请确保您使用正确的外部 IP 地址，并且必要的端口已打开。"
+
+msgid "For Valkey:"
+msgstr "对于 Valkey："
+
+msgid "Check your Valkey installation documentation for the default IP and port configuration."
+msgstr "查看您的 Valkey 安装文档以获取默认 IP 和端口配置。"
+
+msgid "Typically, the default IP is 127.0.0.1 and the default port is 6380, but this can vary based on your setup."
+msgstr "通常，默认 IP 是 127.0.0.1，默认端口是 6380，但这可能会根据您的设置有所不同。"
+
+msgid "If Valkey is hosted remotely, check the server's network configuration and Valkey's config file for the correct IP address and port."
+msgstr "如果 Valkey 是远程托管的，请检查服务器的网络配置和 Valkey 的配置文件，以获取正确的 IP 地址和端口。"
+
+msgid "If you are unsure, consult your cloud provider or hosting service for the correct Redis or Valkey IP and port details."
+msgstr "如果您不确定，请咨询您的云服务提供商或托管服务以获取正确的 Redis 或 Valkey IP 和端口详情。"
+
+msgid "If you find this plugin helpful, please consider supporting us by making a donation:"
+msgstr "如果您觉得这个插件有用，请考虑通过捐款来支持我们："
+
+msgid "Donate via PayPal"
+msgstr "通过 PayPal 捐款"

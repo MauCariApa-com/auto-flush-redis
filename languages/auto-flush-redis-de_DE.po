@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+
+msgid "Auto Flush Cache Settings"
+msgstr "Automatische Cache-Leerungseinstellungen"
+
+msgid "Auto Flush Cache"
+msgstr "Automatische Cache-Leerung"
+
+msgid "Cache Type"
+msgstr "Cache-Typ"
+
+msgid "Redis"
+msgstr "Redis"
+
+msgid "Valkey"
+msgstr "Valkey"
+
+msgid "Redis/Valkey IP"
+msgstr "Redis/Valkey IP"
+
+msgid "Redis/Valkey Port"
+msgstr "Redis/Valkey Port"
+
+msgid "Auto Flush Interval"
+msgstr "Automatisches Leerungsintervall"
+
+msgid "Days"
+msgstr "Tage"
+
+msgid "How to Find Redis/Valkey IP and Port"
+msgstr "So finden Sie die IP und den Port von Redis/Valkey"
+
+msgid "Follow the steps below to find the IP address and port for your Redis or Valkey server:"
+msgstr "Befolgen Sie die folgenden Schritte, um die IP-Adresse und den Port Ihres Redis- oder Valkey-Servers zu finden:"
+
+msgid "For Redis on a Local Machine:"
+msgstr "Für Redis auf einem lokalen Rechner:"
+
+msgid "Open your terminal and run: redis-cli"
+msgstr "Öffnen Sie Ihr Terminal und führen Sie aus: redis-cli"
+
+msgid "By default, Redis runs on IP: 127.0.0.1 and Port: 6379. You can confirm this by running: INFO"
+msgstr "Standardmäßig läuft Redis auf IP: 127.0.0.1 und Port: 6379. Sie können dies bestätigen, indem Sie ausführen: INFO"
+
+msgid "If you're using a custom configuration file, check your Redis config file (usually /etc/redis/redis.conf) for the bind IP and port settings."
+msgstr "Wenn Sie eine benutzerdefinierte Konfigurationsdatei verwenden, überprüfen Sie Ihre Redis-Konfigurationsdatei (normalerweise /etc/redis/redis.conf) auf die Bind-IP- und Port-Einstellungen."
+
+msgid "For Redis on a Remote Server:"
+msgstr "Für Redis auf einem Remote-Server:"
+
+msgid "SSH into your remote server where Redis is installed."
+msgstr "SSH in Ihren Remote-Server, auf dem Redis installiert ist."
+
+msgid "Run redis-cli to connect to the Redis server."
+msgstr "Führen Sie redis-cli aus, um eine Verbindung zum Redis-Server herzustellen."
+
+msgid "Check your Redis configuration file (/etc/redis/redis.conf) for the server's IP address and port number (under bind and port settings)."
+msgstr "Überprüfen Sie Ihre Redis-Konfigurationsdatei (/etc/redis/redis.conf) auf die IP-Adresse und die Portnummer des Servers (unter Bind- und Port-Einstellungen)."
+
+msgid "If Redis is behind a firewall or proxy, ensure you are using the correct external IP address and that the necessary ports are open."
+msgstr "Wenn Redis hinter einer Firewall oder einem Proxy steht, stellen Sie sicher, dass Sie die richtige externe IP-Adresse verwenden und dass die erforderlichen Ports geöffnet sind."
+
+msgid "For Valkey:"
+msgstr "Für Valkey:"
+
+msgid "Check your Valkey installation documentation for the default IP and port configuration."
+msgstr "Überprüfen Sie die Installationsdokumentation von Valkey für die Standard-IP- und Portkonfiguration."
+
+msgid "Typically, the default IP is 127.0.0.1 and the default port is 6380, but this can vary based on your setup."
+msgstr "Typischerweise ist die Standard-IP 127.0.0.1 und der Standardport 6380, aber dies kann je nach Ihrer Konfiguration variieren."
+
+msgid "If Valkey is hosted remotely, check the server's network configuration and Valkey's config file for the correct IP address and port."
+msgstr "Wenn Valkey remote gehostet wird, überprüfen Sie die Netzwerkkonfiguration des Servers und die Konfigurationsdatei von Valkey auf die korrekte IP-Adresse und den Port."
+
+msgid "If you are unsure, consult your cloud provider or hosting service for the correct Redis or Valkey IP and port details."
+msgstr "Wenn Sie sich unsicher sind, wenden Sie sich an Ihren Cloud-Anbieter oder Hosting-Dienst, um die korrekten IP- und Portdetails für Redis oder Valkey zu erhalten."
+
+msgid "If you find this plugin helpful, please consider supporting us by making a donation:"
+msgstr "Wenn Sie dieses Plugin hilfreich finden, ziehen Sie bitte in Betracht, uns durch eine Spende zu unterstützen:"
+
+msgid "Donate via PayPal"
+msgstr "Über PayPal spenden"
