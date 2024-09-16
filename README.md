@@ -46,7 +46,7 @@ This plugin is licensed under the GPLv2.
 
 ## Support
 
-For support or feature requests, visit [Auto Flush Redis & Valkey Plugin Support](https://maucariapa.com/dukungan-plugin-auto-flush-redis-valkey).
+For support or feature requests, please open an Issue on this repo.
 
 ## Donations
 
